@@ -191,7 +191,7 @@ class pdvaliddim(gzqc):
                             errorlist.append(cerror)
                             missingcolumnslist.append(None)
                             extracolumnslist.append(None)
-            else:
+            	else:
 			     if ncol!=ncole:
                             cerror="Error: Columns do not match data dictionary." 
                                 

@@ -194,8 +194,8 @@ class pdvalid(gzqc):
                             errorlist.append(cerror)
 			    missingcolumnslist.append(None)
                             extracolumnslist.append(None)
-		            else:
-			             if ncol!=ncole:
+		    else:
+			if ncol!=ncole:
                             cerror="Error: Columns do not match data dictionary." 
                         print '%s%s%s%s%s'%(nrow," rows ",ncol," columns ",cerror)
                         nrowlist.append(nrow)
